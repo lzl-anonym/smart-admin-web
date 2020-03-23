@@ -63,8 +63,8 @@ export default {
       formData: {
         code: '',
         codeUuid: '',
-        loginName: 'demo',
-        loginPwd: '123456'
+        loginName: '',
+        loginPwd: ''
       },
       codeUrl: ''
     };
