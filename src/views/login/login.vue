@@ -14,6 +14,8 @@
       </div>
       <!--<footer class="center footerDesc">SmartAdmin 由1024创新实验室强力驱动</footer>-->
     </div>
+
+    <footer class="copyright footerDesc">ICP证：豫ICP备17047630号-1</footer>
   </div>
 </template>
 <script>
