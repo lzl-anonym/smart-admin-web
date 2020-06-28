@@ -1,7 +1,7 @@
 {
-  "name": "smart-admin",
+  "name": "RRB",
   "version": "1.0.0",
-  "author": "1024创新实验室<1024lab@sina.com>",
+  "author": "1024创新实验室",
   "private": false,
   "scripts": {
     "dev": "vue-cli-service serve --open",
