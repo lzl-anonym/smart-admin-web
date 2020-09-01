@@ -2,6 +2,7 @@ import { home } from './module/home';
 import { employee } from './module/employee';
 import { systemSetting } from './module/system-setting';
 import { notice } from './module/notice';
+import { team } from './module/team';
 import { emailSetting } from './module/email';
 import { monitor } from './module/monitor';
 import { userLog } from './module/user-log';
@@ -48,6 +49,7 @@ export const routers = [
   ...employee,
   ...systemSetting,
   ...notice,
+  ...team,
   ...emailSetting,
   ...userLog,
   ...monitor,
