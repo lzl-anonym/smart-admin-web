@@ -7,7 +7,6 @@ export const team = [
     component: Main,
     meta: {
       title: '团队管理',
-      // icon: 'icon iconfont '
       icon: 'icon iconfont icondongtaijiazai'
     },
     children: [
@@ -24,11 +23,19 @@ export const team = [
         component: () => import('@/views/team/team-list.vue')
       },
       {
+        path: '/team/team-demo',
+        name: 'TeamDemo',
+        meta: {
+          title: '占用'
+        },
+        component: () => import('@/views/team/team-demo.vue')
+      },
+      {
         path: '/team/team-detail',
         name: 'TeamDetail',
         meta: {
           title: '团队详情',
-          hideInMenu:false
+          hideInMenu:true
         },
         component: () => import('@/views/team/team-detail.vue')
       }
