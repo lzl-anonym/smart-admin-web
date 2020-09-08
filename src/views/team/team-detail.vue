@@ -24,6 +24,11 @@
             </FormItem>
           </Col>
           <Col :md="8">
+            <FormItem label="更新时间：">
+              <span v-text="team.updateTime"></span>
+            </FormItem>
+          </Col>
+          <Col :md="8">
             <FormItem label="当前状态：">
               <span v-text="this.$enum.getDescByValue('TEAM_STATUS', team.auditState)" ></span>
             </FormItem>
